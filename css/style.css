@@ -1,0 +1,813 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    
+}
+
+.twitch {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.left_side {
+    margin-left: 5rem;
+    width: 18%;
+    height: 100vh;
+    /* overflow-y: scroll; */
+    position: sticky;
+    top: 0;
+    border-right: 1px solid rgb(225, 220, 220);
+}
+
+button {
+    width: 50%;
+    height: 2.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;   
+    background-color: transparent;
+    border-width: 0.05rem;
+    border: none;
+    font-size: 1.3rem;
+    gap: 1.25rem;
+    
+}
+
+.explore {
+    margin-left: 0.3rem;
+}
+
+.exp {
+    width: 60%;
+}
+
+.Notify {
+    padding-left: 0.3rem;    
+}
+
+.Bell {
+    width: 80%;
+}
+
+.envelope {
+    padding-left: 0.3rem;
+}
+
+.message {
+    width: 75%;
+}
+
+.listings {
+    padding-left: 0.3rem;
+}
+
+.communities {
+    padding-left: 0.15rem;
+}
+
+.group {
+    width: 80%;
+}
+
+.twitter {
+    width: 70%;
+}
+
+.icon {
+    height: 1.25rem;
+    padding-left: 0.15rem;
+}
+
+.profile {
+    padding-left: 0.3rem;
+}
+
+.more {
+    padding-left: 0.3rem;
+}
+
+button:hover {
+    outline: 2px solid rgb(225, 220, 220);
+    background-color: rgb(225, 220, 220);
+    cursor: pointer;
+}
+
+.pos {
+    margin-top: 2rem;
+    width: 85%;
+    height: 2.75rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: rgb(0, 170, 255);
+    border-width: 0.05rem;
+    color: white;
+    font-size: 1rem;
+    gap: 1.25rem;
+}
+
+.for_you {
+    
+    width: 45%;
+    height: 2.75rem;
+    border: none;
+    justify-content: center;   
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    gap: 1.25rem;
+    border-radius: 0rem;
+    /* position: fixed; */
+}
+
+.middle {
+    width: 43%; 
+    border-right: 1px solid rgb(225, 220, 220);  
+    /* margin-left: 336px; */
+    display: block;     
+}
+
+.nav_bar {
+    position: fixed;
+    width: 43%;
+    display: flex;
+    border-bottom: 1px solid rgb(225, 220, 220);
+}
+
+.following {
+    width: 45%;
+    height: 2.75rem;
+    border: none;
+    justify-content: center;   
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    gap: 1.25rem;
+    border-radius: 0rem;
+    /* position: fixed; */
+}
+
+.gear {
+    width: 10%;
+    height: 2.75rem;
+    border: none;
+    justify-content: center;   
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    gap: 1.25rem;
+    border-radius: 0rem;
+    /* position: fixed; */
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    padding: 10px 15px;
+    width: 17.2rem;
+    border-radius: 20px;
+    background: #f5f5f5;
+    margin-top: 0.5rem;
+    margin-left: 1.55rem;
+    position: sticky;
+    top: 0;
+}
+
+.search {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+
+.happy {
+    margin-top: 3rem;
+    /* margin-left: 2rem; */
+    display: flex;
+    gap: 1rem;
+    padding: 10px 15px;
+    width: 15rem;
+    border-radius: 20px;
+    background: transparent;
+    
+}
+
+.Happening {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    
+    
+}
+
+.myself {
+    height: 40px;
+    width: 40px;
+    border-radius: 150px;
+}
+
+.Subscribe {
+    height: 7.5rem;
+    margin-left: 1.65rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    width: 18rem;
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+}
+
+.right_side {
+    width: 33%;
+    position: sticky;
+    height: 230vh;   
+    top: -10vh;
+    
+}
+
+h2 {
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;    
+}
+
+.scribe {
+    margin-top: 0.7rem;
+    width: 32.5%;
+    height: 2rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: rgb(0, 170, 255);
+    border-width: 0.05rem;
+    color: white;
+    font-size: 1rem;
+    gap: 1.25rem;
+}
+
+.trends {
+    height: 9rem;
+    margin-left: 1.65rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    width: 19rem;
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    /* padding-left: 1rem; */
+    
+}
+
+.Ta:hover {
+    outline: 2px solid rgb(225, 220, 220);
+    background-color: rgb(225, 220, 220);
+    cursor: pointer;      
+}
+
+h3 {
+    padding-left: 1rem;
+}
+
+.Ta {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.maw {
+    margin-left: 8.5rem;
+    border-radius: 150px;
+    height: 1rem;
+}
+
+.maw:hover {
+    outline: 2px solid grey;
+    background-color: grey;
+    cursor: pointer;      
+}
+
+.globe {
+    display: flex;
+    margin-left: 4.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgb(225, 220, 220);
+}
+
+.rely {
+    margin-left: 0.5rem;
+    color:rgb(0, 170, 255);
+   
+}
+
+.small_icons {
+    margin-top: 0.8rem;
+    margin-left: 4.5rem;
+    display: flex;
+    align-items: center;
+       
+}
+
+.little {
+    display: flex;
+    gap: 1.4rem;
+    
+}
+
+.toos {
+    margin-top: 0rem;
+    width: 32.5%;
+    height: 2rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: rgb(0, 170, 255);
+    border-width: 0.05rem;
+    color: white;
+    font-size: 0.8rem;
+    gap: 1.25rem;
+    margin-left: 10.25rem;
+}
+
+.oust {
+    /* margin-top: 1rem; */
+    width: 100%;
+    height: 2.25rem;
+    justify-content: center;   
+    background-color: transparent;
+    color: rgb(0, 136, 255);
+    font-size: 0.88rem;
+    gap: 1.25rem;
+    align-content: center;
+    border-radius: 0rem;
+}
+
+.hows {
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgb(225, 220, 220);
+    border-top: 1px solid rgb(225, 220, 220);
+}
+
+.crack {
+    display: flex;
+    margin-left: 0.8rem;
+    padding-top: 0.8rem;
+    
+}
+
+.cracked_devs {
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: red;
+    border-radius: 150px;
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 0.3rem;
+}
+
+.developer {
+    margin-left: 1rem;
+}
+
+.flyer {
+    height: 30rem;
+    width: 28rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    
+}
+
+.reactions {
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 3.65rem;
+    margin-left: 3rem;
+}
+
+.rxn {
+    display: flex;
+}
+
+.param {
+    margin-left: 0.4rem;
+    /* font-size: 0.9rem; */
+}
+
+.border_bottom {
+    border-bottom: 1px solid rgb(225, 220, 220);
+    margin-top: 0.7rem;
+}
+
+.spark {
+    height: 41.8rem;
+    margin-left: 1.65rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    width: 19rem;
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+}
+
+.camera {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 0.9rem;
+    
+}
+
+.politics {
+    /* height: 39rem; */
+    margin-left: 1.1rem;
+    /* background-color: #f5f5f5; */
+    /* border-radius: 1rem; */
+    /* width: 20rem; */
+    margin-top: 2rem;
+    padding-top: 0.6rem;
+}
+
+.policies {
+    display: flex;
+}
+
+.remo {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: rgb(0, 136, 255);
+}
+
+.logs {
+    height: 15.5rem;
+    margin-left: 1.65rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    width: 19rem;
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    /* display: flex; */
+}
+
+.lagos {
+    margin-left: 1.1rem;
+    margin-top: 0.3rem;
+    padding-top: 0.6rem;
+    display: flex;
+}
+
+.lagos_badge {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 150px;
+}
+
+.hollow {
+    margin-top: 0rem;
+    width: 3.4rem;
+    height: 2rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: black;
+    border-width: 0.05rem;
+    color: white;
+    font-size: 0.8rem;
+    gap: 1.25rem;
+    margin-left: 0.55rem;
+}
+
+.oll {
+    margin-top: 0rem;
+    width: 78%;
+    height: 2rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: black;
+    border-width: 0.05rem;
+    color: white;
+    font-size: 0.8rem;
+    gap: 1.25rem;
+    margin-left: 2rem;
+}
+
+.lol {
+    margin-top: 0rem;
+    width: 68%;
+    height: 2rem;
+    border-radius: 1.25rem;
+    justify-content: center;   
+    background-color: black;
+    border-width: 0.05rem;
+    color: white;
+    font-size: 0.8rem;
+    gap: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+.demo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgb(0, 136, 255);
+}
+
+.can {
+    margin-left: 0.8rem;
+    margin-right: 1rem;
+}
+
+.minst {
+    border-radius: 150px;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0rem;
+}
+
+.her {
+    color: rgb(19, 19, 19);
+    font-weight: lighter;
+}
+
+.love {
+    font-size: 0.9rem;
+}
+
+.shinny:hover {
+    outline: 2px solid rgb(225, 220, 220);
+    background-color: rgb(225, 220, 220);
+    cursor: pointer;      
+}
+
+.shinny {
+    margin-top: 0rem;
+}
+
+.unlock {
+    font-size: 0.9rem;
+}
+
+.rxn:hover {
+    color: rgb(189, 28, 28);
+    background-color: rgb(225, 220, 220);
+    cursor: pointer; 
+}
+.rxn svg:hover {
+    cursor: pointer; 
+    fill:  rgb(189, 28, 28);
+}
+
+.bottom_bar {
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    width: 525px;
+    display: none;
+}
+
+.post_icon {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+}
+
+.post_span {
+    background-color: rgb(0, 136, 255);
+    z-index: 200;
+    border-radius: 100%;
+    height: 4.5rem;
+    width: 4.5rem;
+    
+    display: none;
+}
+
+.mobile_top {
+    display: none;
+    justify-content: space-between;
+    width: 525px;
+}
+
+@media (max-width: 480px) {
+    .left_side {
+        display: none;
+    }
+    .right_side {
+        display: none;
+    }
+
+    .nav_bar {
+        width: 525px;
+    }
+    
+    .nav_bar div {
+        display: none;
+    }
+
+    .middle {
+        width: 525px;
+        border-right: none;
+    }
+
+    .globe {
+        width: 525px;
+    }
+
+    .hows {
+        width: 525px;
+    }
+
+    .crack {
+        width: 525px;
+    }
+    .bottom_bar {
+        display: flex;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        padding: 10px;
+    }
+    .post_span {
+        display: block;
+        position: fixed;
+        bottom: 90px;
+        right: 30px;
+    }
+    .mobile_top {
+        width: 500px;
+        display: flex;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    .flyer {
+        margin-left: 3.7rem;
+    }
+
+    .toos {
+        margin-left: 9.5rem;
+    }
+
+    .happy {
+        margin-top: 4rem;
+    }
+
+}
+
+@media (max-width: 770px) {
+    .right_side {
+        display: none;
+    }
+    .tab_icon p {
+        display: none;
+    }
+
+    .post {
+        display: none;
+    }
+
+    .post_span {
+        display: block;
+    }
+    .mobile_span {
+        display: none;
+    }
+    .nav_bar {
+        width: 600px;
+    }
+
+    .middle {
+        width: 600px;
+        margin-left: 0rem;
+    }
+    .left_side {
+        width: 8%;
+        margin-left: 3rem;
+        gap: 3rem;
+    }
+    .post_icon {
+        height: 1.3rem;
+        width: 1.3rem;        
+    }
+
+    .post_span {
+        height: 3rem;
+        width: 3rem;       
+    }
+
+    .mobile_span {
+        margin-left: 0rem;
+    }
+
+    .home_blue {
+        margin-bottom: 1rem;
+    }
+    .twitch {
+        margin-bottom: 1rem;
+    }
+    .explore {
+        margin-bottom: 1rem;
+    }
+    .Notify {
+        margin-bottom: 1rem;
+    }
+    .envelope {
+        margin-bottom: 1rem;
+    }
+    .listings {
+        margin-bottom: 1rem;
+    }
+    .communities {
+        margin-bottom: 1rem;
+    }
+    .premium {
+        margin-bottom: 1rem;
+    }
+    .profile {
+        margin-bottom: 1rem;
+    }
+    .more {
+        margin-bottom: 1rem;
+    }
+    .post {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .tab_icon p {
+        display: none;
+    }
+    .left_side {
+        width: 7%;
+        margin-left: 2.5rem;
+    }
+    .post {
+        display: none;
+    }
+
+    .middle {
+        width: 52.5%;
+    }
+    .nav_bar {
+        width: 532px;
+    }
+
+    .post_span {
+        display: block;
+    }
+
+    .mobile_span {
+        display: none;
+    }
+
+    .post_icon {
+        height: 0.9rem;
+        width: 0.9rem;        
+    }
+
+    .post_span {
+        height: 2.8rem;
+        width: 2.7rem;       
+    }
+    .home_blue {
+        margin-bottom: 1rem;
+    }
+    .twitch {
+        margin-bottom: 1rem;
+    }
+    .explore {
+        margin-bottom: 1rem;
+    }
+    .Notify {
+        margin-bottom: 1rem;
+    }
+    .envelope {
+        margin-bottom: 1rem;
+    }
+    .listings {
+        margin-bottom: 1rem;
+    }
+    .communities {
+        margin-bottom: 1rem;
+    }
+    .premium {
+        margin-bottom: 1rem;
+    }
+    .profile {
+        margin-bottom: 1rem;
+    }
+    .more {
+        margin-bottom: 2.5rem;
+        height: 2rem;
+        
+    }
+    
+}
